@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2024-12-18T04:32:10.867">
+<file name="/home/runner/deber/src/main/java/CManager.java">
+<violation beginline="4" endline="4" begincolumn="8" endcolumn="13" rule="NoPackage" ruleset="Code Style" class="CManager" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="4" endline="4" begincolumn="8" endcolumn="13" rule="AtLeastOneConstructor" ruleset="Code Style" class="CManager" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="19" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="aC" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" class="CManager" method="aC" variable="n" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like n
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="CManager" method="aC" variable="n" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'n' is not assigned and could be declared final
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="15" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="aC" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="15" endline="15" begincolumn="17" endcolumn="19" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="aO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="15" endline="15" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" class="CManager" method="aO" variable="o" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="15" endline="15" begincolumn="27" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="CManager" method="aO" variable="o" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="9" endcolumn="15" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="aO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="21" endline="21" begincolumn="17" endcolumn="19" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="pO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" class="CManager" method="pO" variable="c" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like c
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="CManager" method="pO" variable="c" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'c' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="15" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="pO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="23" endline="25" begincolumn="9" endcolumn="10" rule="ForLoopCanBeForeach" ruleset="Best Practices" class="CManager" method="pO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="19" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="pO" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="29" endline="29" begincolumn="17" endcolumn="19" rule="ShortMethodName" ruleset="Code Style" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortmethodname" priority="3">
+Avoid using short method names
+</violation>
+<violation beginline="30" endline="30" begincolumn="9" endcolumn="15" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="31" endline="33" begincolumn="9" endcolumn="10" rule="ForLoopCanBeForeach" ruleset="Best Practices" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="19" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="34" endline="34" begincolumn="9" endcolumn="15" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="35" endline="37" begincolumn="9" endcolumn="10" rule="ForLoopCanBeForeach" ruleset="Best Practices" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="19" rule="SystemPrintln" ruleset="Best Practices" class="CManager" method="gR" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+<violation beginline="41" endline="41" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" class="CManager" method="main" variable="m" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like m
+</violation>
+<violation beginline="41" endline="41" begincolumn="18" endcolumn="19" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="CManager" method="main" variable="m" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'm' could be declared final
+</violation>
+</file>
+<file name="/home/runner/deber/src/main/java/Main.java">
+<violation beginline="5" endline="5" begincolumn="8" endcolumn="13" rule="NoPackage" ruleset="Code Style" class="Main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes, interfaces, enums and annotations must belong to a named package
+</violation>
+<violation beginline="5" endline="5" begincolumn="8" endcolumn="13" rule="ShortClassName" ruleset="Code Style" class="Main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Main
+</violation>
+<violation beginline="5" endline="5" begincolumn="8" endcolumn="13" rule="UseUtilityClass" ruleset="Design" class="Main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+This utility class has a non-private constructor
+</violation>
+<violation beginline="7" endline="7" begincolumn="5" endcolumn="11" rule="SystemPrintln" ruleset="Best Practices" class="Main" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+Usage of System.out/err
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
